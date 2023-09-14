@@ -71,6 +71,7 @@ function shapeMold(data) {
             break;
 
         default:
+            throw new Error("Please select valid shape.");
             break;
     }
 }
