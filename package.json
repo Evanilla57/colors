@@ -1,6 +1,20 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^29.7.0"
-  }
+  "name": "colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+    "dependencies": {
+      "inquirer": "^8.2.4",
+      "jest": "^29.7.0"
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
