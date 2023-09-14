@@ -1,20 +1,19 @@
-const { text } = require("stream/consumers");
-
 class SVG {
-    constructor(textInput, textColor, shapeInput, shapeColor) {
-        this.textInput = textInput;
-        this.textColor = textColor;
-        this.shapeInput = shapeInput;
-        this.shapeColor = shapeColor;
+    constructor() {
+        this.text = "";
+        this.shape = "";
     }
     setText(textInput, textColor) {
-        `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${textInput}</text>`
+        this.text = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${textInput}</text>`;
     };
     setShape(shapeChoice) {
-
+        this.shape = shapeChoice;
     };
     render() {
-        return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${}</svg>`
+        return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        ${this.text}
+        ${this.shape}
+        </svg>`;
     }
 };
 
