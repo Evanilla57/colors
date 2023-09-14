@@ -2,7 +2,13 @@
 
 ## Description
 
-By using a Scalable Vector Graphics logo (SVG), users are able to store images that are created based on points and lines on a grid. This means that vector files like SVG can be significantly resized without losing any of their quality, which makes them ideal for logos and complex online graphics.
+As a student, I am always looking for ways to both improve my coding knowledge base as well as for ways to save money in my day to day life. This projects combines both goals as I have learned to generate an SVG logo without needing to hire a graphics designer.
+
+A Scalable Vector Graphics (SVG) logo allows users to store images that are created based on points and lines on a grid. This allows the logo to be significantly resized without losing any of their quality, which makes them ideal for logos and complex online graphics.
+
+I am excited to share this with all who need it! 
+
+Apologies in advance to any graphic designers out there!
 
 ## Tasks 
 
