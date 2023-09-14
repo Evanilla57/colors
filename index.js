@@ -3,12 +3,6 @@ const inquirer = require('inquirer');
 // WHEN I have entered input for all the prompts
 // THEN an SVG file is created named `logo.svg`
 
-function SVG(textInput, textColor, shape, shapeColor) {
-    this.textInput = textInput;
-    this.textColor = textColor;
-    this.shape = shape;
-    this.shapeColor = shapeColor;
-}
 
 inquirer
     .prompt({
@@ -23,7 +17,7 @@ inquirer
         },
         {
             type: "list",
-            name: "shape",
+            name: "shapeInput",
             message: "Choose a shape for your logo background:",
             choices: ["Circle", "Square", "Triangle"],
         },
