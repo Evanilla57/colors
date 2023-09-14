@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const {shapeMold} = require('./lib/shapes');
+const { shapeMold } = require('./lib/shapes');
 
 const fs = require('fs');
 
@@ -25,9 +25,13 @@ inquirer
         name: "shapeColor",
         message: "Enter a color name or hexidecimal number for your logo background shape:",
     },]
-    ).then((data) => {
-        fs.writeFile("logo.svg", shapeMold(data), (err) =>
-            err ? console.log(err) : console.log("Success!"))
+    ).then((data) =>  {
+        if (data.textInput.length < 1 || data.textInput.length > 3) {
+            console.log('Logo text must include between 1-3 characters.')
+            return;
+        } else {
+            fs.writeFile(`examples/${data.textInput}-${data.shapeColor}-${data.shapeInput}-logo.svg`, shapeMold(data), (err) =>
+                err ? console.log(err) : console.log('Generated logo.svg')
+            );
+        }
     });
-
-    
