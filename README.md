@@ -35,10 +35,10 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Usage
 
-https://drive.google.com/file/d/1ZRAFBt_xjz5TfCBjlh4vw-hiFX9R33Ic/view
+Video: https://drive.google.com/file/d/1ZRAFBt_xjz5TfCBjlh4vw-hiFX9R33Ic/view
 
 ## Links
-Deployed Webpage: 
+Deployed Webpage: https://evanilla57.github.io/colors/
 GitHub Repo Page: https://github.com/Evanilla57/colors
 
 ## Credits
