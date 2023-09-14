@@ -74,6 +74,10 @@ function shapeMold(data) {
             throw new Error("Please select valid shape.");
             break;
     }
+    const newSVG = new SVG();
+    newSVG.setText(textInput, textColor);
+    newSVG.setShape(shapeChoice);
+    return newSVG.render();
 }
 
 module.exports = shapeMold;
