@@ -1,4 +1,7 @@
 const inquirer = require('inquirer');
+const shapeMold = require('./shapes');
+
+const fs = require('fs');
 
 // WHEN I have entered input for all the prompts
 // THEN an SVG file is created named `logo.svg`
