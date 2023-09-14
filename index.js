@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const shapeMold = require('./lib/shapes');
+const {shapeMold} = require('./lib/shapes');
 
 const fs = require('fs');
 
@@ -29,3 +29,5 @@ inquirer
         fs.writeFile("logo.svg", shapeMold(data), (err) =>
             err ? console.log(err) : console.log("Success!"))
     });
+
+    
