@@ -35,7 +35,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Usage
 
-![Alt text](screenshot.png))
+https://drive.google.com/file/d/1ZRAFBt_xjz5TfCBjlh4vw-hiFX9R33Ic/view
 
 ## Links
 Deployed Webpage: 
